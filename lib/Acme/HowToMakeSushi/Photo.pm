@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use MIME::Base64;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 END{
 	unless ($? != 0) { #  success making sushi
@@ -27,15 +27,19 @@ __END__
 
 =head1 NAME
 
-Acme::HowToMakeSushi::Photo - It's new $module
+Acme::HowToMakeSushi::Photo - It's making sushi(photos).
 
 =head1 SYNOPSIS
 
     use Acme::HowToMakeSushi::Photo;
 
+	prtl hoge.pl > sushi.jpg
+
 =head1 DESCRIPTION
 
-Acme::HowToMakeSushi::Photo is ...
+Acme::HowToMakeSushi::Photo is like Acme::Cake.
+Acme::HowToMakeSushi is AA .
+But, this module is jpg data.
 
 =head1 LICENSE
 

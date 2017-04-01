@@ -33,6 +33,7 @@
       },
       "develop" : {
          "requires" : {
+            "MIME::Base64" : "0",
             "Test::CPAN::Meta" : "0",
             "Test::MinimumVersion::Fast" : "0.04",
             "Test::PAUSE::Permissions" : "0.04",
@@ -63,7 +64,7 @@
          "web" : "https://github.com/AnaTofuZ/perl5-acme--howtomakesushi"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_authority" : "cpan:ANATOFUZ",
    "x_contributors" : [
       "AnaTofuZ <e155730@ie.u-ryukyu.ac.jp>"
